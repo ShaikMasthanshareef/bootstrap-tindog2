@@ -1,0 +1,123 @@
+body{
+  font-family: "Montserrat" sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.container-fluid{
+  padding:3% 15% 6%;
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+   line-height:1.5;
+   font-weight: bolder;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+/*navigation bar */
+.navbar-brand{
+  font-family:"Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "Montserrat";
+
+}
+
+.btn{
+  margin: 5% 3% 5% 0;
+
+}
+.iphone{
+  width:20%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+/*another one time in this concept revision */
+/* z-index is the "advance CSS concept"
+we are use the "z-index" option
+this option used for which is first and second on the
+elemnet that means color/image which is first and second
+this option is used for the layer bye layer concept*/
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+/* i am trying the actual font family to taken the  as for assignements
+but not that style come that reasone to i am taken the another style*/
+h3{
+  font-family: "Montserrat bold 700";
+  font-weight: bold;
+}
+p{
+  color:#8f8f8f;
+}
+.feature-box{
+  text-align: center;
+  padding: 4%;
+}
+.icon{
+  color: #ef8172;
+}
+/* it is used for flashing the particular taken color*/
+.icon:hover{
+  color:#ff4c68;
+}
+/*testimonialsection*/
+#testimonials{
+/*  padding: 7% 20%;
+this is off to to copy the next and previwe buttons in the we add this padding*/
+text-align: center;
+background-color: #ef8172;
+color:#fff;
+}
+/* we add padding on this option to we implent the this option
+that means superate the buttons toggle area you see the toogale
+option on the web page and that area any wher you press manual buttonoption works*/
+.carousel-item{
+  padding: 7% 20%;
+}
+h2{
+  font-family: "Montserrat-bold-700";
+  font-weight: bold;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/*press section*/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*card elemnt in bootstrap*/
+.boot{
+
+  width: 100%;
+}
+#pricing{
+  padding:100px;
+  text-align:center;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
