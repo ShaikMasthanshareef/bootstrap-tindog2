@@ -121,6 +121,39 @@ h2{
 .pricing-column{
   padding: 3% 2%;
 }
+/*cta section*/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+
+}
+.cta-heading{
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: white;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-top: 50px;
+}
+.downlod-button{
+  text-align: center;
+  width: 10%;
+
+}
+/*footer section*/
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.social-icon{
+  margin:  10px 11px;
+}
+/*the media query is advaced css topic
+it is used and apply for the condition satisified
+and inside of the all propertis are apply on the element*/
+
 @media(max-width:1028px) {
 .iphone{
   position: static;
